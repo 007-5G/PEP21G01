@@ -1,16 +1,31 @@
-# This is a sample Python script.
+print('Hello World')
+print('print\u200b("")')
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+# print​("")
+print(print)
+print(3)
 
+# multiple values
+print('My name is:', 'Emanuel')
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
+# args and kwargs
+print('My name is:', 'Emanuel', '1', sep='_', end='*')
+print('My name is:', 'Emanuel', '2', sep='_', end='#')
+print('My name is:', 'Emanuel', '3', sep='_', end='@')
 
+print()
 
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
+print_text1 = 'Hello World 1'
+print_text2 = 'Hello World 2'
+print(print_text1, print_text2)
 
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+print_text1 = 123
+print_text2 = 456
+print(print_text1, print_text2)
+
+# print shape
+print("*5*")
+print("* *")
+print("***") 
+print("***") 
+print("***")
